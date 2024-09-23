@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizki Nur Hidayat</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Zilla+Slab+Highlight:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/171baad59b8491ef7ab9dbbda5e38273.jpg">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div class="fcontainer">
+        <nav class="navbar">
+            <div class="brand">
+                <a href="">
+                    <h2>RNH<span>.</span></h2>
+                </a>
+            </div>
+            <div class="connect">
+                <a href="https://www.linkedin.com/in/rizki-nur-hidayat-43067730a/">
+                    <h2>Let's connect.</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">about.</a></li>
+                    <li><a href="">work.</a></li>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+    </div>
+
+    <!-- navbar end -->
+
+    <!-- hero section -->
+    <div class="gcontainer">
+        <div class="name1">
+            <div class="emote">
+                &#128075;
+            </div>
+            <div class="name">
+                <h2>
+                    RIZKI <br> NUR <br> HIDAYAT
+                </h2>
+            </div>
+        </div>
+
+    </div>
+    <div class="position">
+        <h3>UI/UX DESIGNER AND FRONT-END DEV</h3>
+    </div>
+    <div class="music">
+        <a href=""><i class="fa-solid fa-play"></i></a>
+        <p class="audio-text" id="audio-text">Do you like Bubble Gum?</p>
+        <span class="time" id="current-time"></span>
+    </div>
+
+    <audio id="audio">
+        <source src="audio/Bubble Gum - NewJeans (Audio).mp3" type="audio/mp3">
+    </audio>
+
+    <div class="marquee">
+        <img src="images/171baad59b8491ef7ab9dbbda5e38273.jpg" alt="">
+    </div>
+
+    <div class="me">
+        <div class="me1">
+
+            <div class="text">
+                <h4>
+                    Hello, I'm Rizki based in Indonesia, I've learned a lot about <span>UI/UX designers and front-end
+                        developers.</span> I
+                    really hope to be able to work professionally and I like new jeans.
+                </h4>
+            </div>
+            <div class="picture">
+                <img src="images/171baad59b8491ef7ab9dbbda5e38273.jpg" alt="myfoto">
+            </div>
+        </div>
+        <div class="learn">
+            <button><a href="">learn more about me</a> </button>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="skill-section">
+            <h2>myskill</h2>
+        </div>
+        <div class="beginner">
+            <h4>beginner</h4>
+            <hr>
+            <div class="skills">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>bootstrap</li>
+                    <li>UX Research</li>
+                    <li>Usability</li>
+                </ul>
+            </div>
+        </div>
+        <div class="intermediate">
+            <h4>intermediate</h4>
+            <hr>
+            <div class="skills">
+                <ul>
+                    <li>ui design</li>
+                    <li>web design</li>
+                    <li>wireframe</li>
+                    <li>mobile design</li>
+                    <li>figma</li>
+                    <li>design process</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- project -->
+
+    <div class="project">
+        <div class="mywork">
+            <h2>MY PROJECT</h2>
+        </div>
+        <div class="cta-works">
+            <div class="aii">
+                <div class="cta-design">
+                    <p id="ui">ui/ux design</p>
+                    <p id="web">web dev</p>
+                </div>
+            </div>
+            <div class="works-content" id="works-section">
+                <div class="isi-content">
+                    <img src="images/171baad59b8491ef7ab9dbbda5e38273.jpg" alt="foto">
+                    <p>memek.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+    <script>
+        const webBtn = $("#web");
+        const uiBtn = $("#ui");
+        const workSection = $('#works-section');
+        let idItem = 0;
+        webBtn.click(function (){
+            idItem = 0;
+            console.log(idItem);
+            if(idItem === 0){
+                webBtn.css("opacity", "100%")
+                uiBtn.css("opacity", "50%")
+                workSection.empty();
+                workSection.append( `
+                    <div class="isi-content">
+                    <img src="images/171baad59b8491ef7ab9dbbda5e38273.jpg" alt="foto">
+                    <p>konotl.</p>
+                </div>                
+                `
+                )
+            }
+        })
+        uiBtn.click(function () {
+            idItem = 1;
+            console.log(idItem);
+            
+            if(idItem === 1){
+                webBtn.css("opacity", "50%")
+                uiBtn.css("opacity", "100%")
+                workSection.empty();
+                workSection.append(`
+                    <div class="isi-content">
+                    <img src="images/171baad59b8491ef7ab9dbbda5e38273.jpg" alt="foto">
+                    <p>IULorem ipsum, dolor sit amet consectetur adipisicing elit. Neque nobis, consequatur adipisci
+                        quidem ratione quis.</p>
+                    </div>
+                    `
+                )
+            }
+        })
+    </script>
+</body>
+
+</html>
