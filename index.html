@@ -142,7 +142,7 @@
             <div class="works-content" id="works-section">
                 <div class="isi-content">
                     <img src="171baad59b8491ef7ab9dbbda5e38273.jpg" alt="foto">
-                    <p>lorem ipsum</p>
+                    <p>click on your left</p>
                 </div>
             </div>
         </div>
@@ -196,9 +196,15 @@
             
             if(idItem === 1){
                 webBtn.css("opacity", "50%")
-                uiBtn.css("opacity", "100%")
+                uiBtn.css("opacity", "50%")
                 workSection.empty();
-                workSection.append(
+                workSection.append(`
+                    <div class="isi-content">
+                    <img src="171baad59b8491ef7ab9dbbda5e38273.jpg" alt="foto">
+                    <p>IULorem ipsum, dolor sit amet consectetur adipisicing elit. Neque nobis, consequatur adipisci
+                        quidem ratione quis.</p>
+                    </div>
+                    `
                 )
             }
         })
