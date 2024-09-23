@@ -620,7 +620,9 @@ contact {
     font-size: 48px;
     font-weight: 400;
     padding: 10px;
+    color: red;
 }
+
 
 .footer {
     display: flex;
