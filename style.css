@@ -633,12 +633,14 @@ contact {
     font-size: 48px;
     font-weight: 400;
     padding: 10px;
+    background-color: transparent;
 
 }
 
 .link-sosmed a {
     color: #000;
     text-decoration: none;
+    background-color: transparent;
 }
 
 
