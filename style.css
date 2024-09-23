@@ -584,3 +584,52 @@ padding: 11px 20px 13px 10px;
 font-size: 18px;
 padding: 10px;
 }
+
+
+contact {
+    width: 100%;
+    height: 633px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-link {
+    display: block;
+    text-align: center;
+    font-family: var(--primaryfont);
+}
+
+.contact-link h1 {
+    font-family: var(--primaryfont);
+    font-size: 128px;
+    font-weight: 400;
+}
+
+
+
+.link-sosmed {
+    margin-top: 50px;
+    gap: 200px;
+    display: block;
+
+}
+
+.link-sosmed h4 {
+    font-family: var(--primaryfont);
+    font-size: 48px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer h4 {
+font-family: var(--primaryfont);
+
+}
