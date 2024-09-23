@@ -620,10 +620,13 @@ contact {
     font-size: 48px;
     font-weight: 400;
     padding: 10px;
-    color: red;
+
 }
 
-
+.link-sosmed a {
+    color: #000;
+    text-decoration: none;
+}
 .footer {
     display: flex;
     justify-content: center;
