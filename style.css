@@ -646,11 +646,11 @@ contact {
 
 .link-sosmed h4:hover {
     color: tomato;
-    transform: translatey(0) scale(1.2);
-    -webkit-transform: translatey(0) scale(1.2);
-    -moz-transform: translatey(0) scale(1.2);
-    -ms-transform: translatey(0) scale(1.2);
-    -o-transform: translatey(0) scale(1.2);
+    transform: translatey(0) scale(0.2);
+    -webkit-transform: translatey(0) scale(0.2);
+    -moz-transform: translatey(0) scale(0.2);
+    -ms-transform: translatey(0) scale(0.2);
+    -o-transform: translatey(0) scale(0.2);
 }
 
 
