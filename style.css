@@ -590,7 +590,7 @@ span {
 .isi-content img {
     width: 180px;
     height: 180px;
-    padding: 11px 20px 13px 15px;
+    padding-left: 20px;
     border: none;
     border-radius: 5px;
     -webkit-border-radius: 5px;
