@@ -604,7 +604,8 @@ span {
     font-size: 14px;
     padding: 5px;
     background-color: transparent;
-    color: white
+    color: white;
+    margin: 10px;
 }
 
 .isi-content i {
