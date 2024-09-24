@@ -571,9 +571,6 @@ span {
 
 }
 
-.works-content1 {
-    display: none;
-}
 
 .isi-content {
     display: flex;
@@ -605,7 +602,7 @@ span {
 .isi-content p {
     font-family: var(--primaryfont);
     font-size: 18px;
-    padding: 10px;
+    
     background-color: transparent;
     color: white
 }
