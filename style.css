@@ -574,7 +574,7 @@ span {
 
 .isi-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 650px;
     height: 220px;
@@ -588,9 +588,9 @@ span {
 }
 
 .isi-content img {
-    width: 200px;
+    width: 180px;
     height: 180px;
-    padding: 11px 20px 13px 10px;
+    padding: 11px 20px 13px 15px;
     border: none;
     border-radius: 5px;
     -webkit-border-radius: 5px;
