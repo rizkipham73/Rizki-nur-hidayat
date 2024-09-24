@@ -601,7 +601,7 @@ span {
 
 .isi-content p {
     font-family: var(--primaryfont);
-    font-size: 18px;
+    font-size: 14px;
     padding: 5px;
     background-color: transparent;
     color: white
